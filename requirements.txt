@@ -1,0 +1,13 @@
+# engine
+opencv-contrib-python>=4.7
+numpy>=1.24
+pydantic>=2.0
+pillow>=10.0
+# app (API + front end)
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+httpx>=0.26            # Vinted ingestion adapter
+# optional (classifier / generative layer):
+#   anthropic          # VLM garment-type classification + Gemini/Claude try-on
+#   open-clip-torch    # CLIP zero-shot classifier (reuses the JeansFinder approach)
