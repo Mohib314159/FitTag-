@@ -8,8 +8,6 @@ will actually fit. Built for the Fleek × a16z hackathon.
 > a metric top-down plane; silhouette geometry extracts measurements; a vision model is used
 > *only* to classify the garment type. No model ever emits a number.
 
-See **PITCH.md** for the full story, demo script, and judge calibration.
-
 ## Run
 ```bash
 pip install -r requirements.txt          # add --break-system-packages if needed
