@@ -71,10 +71,6 @@ sheet, and a placement guide. Print at 100% and verify the 100 mm bar. The scrip
 the kit end-to-end: it composites the real sheet PNGs, tilts the scene like a handheld photo,
 and asserts `calibrate()` -> mat mode with all four markers.
 
-## Pitch deck
-Open `deck.html` — 8 slides + 2 backup (arrow keys / tap / swipe; speaker cues in the strip
-above the tape-measure progress bar). Pairs with the live app in a second tab; PITCH.md section 12
-is the demo-day runbook.
 
 ## Prior art / reuse
 - ArUco px->cm measurement reuses the approach from my climbing-route optimiser. FitTag's
